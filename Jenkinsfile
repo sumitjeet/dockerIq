@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('SCM checkout'){
             steps {
-		git "https://github.com/vistasunil/devopsIQ.git"
+		git "https://github.com/sumitjeet/dockerIq.git"
             }
 	}
 	stage('Remove dockers'){
